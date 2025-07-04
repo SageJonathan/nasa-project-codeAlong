@@ -1,0 +1,15 @@
+{
+  "name": "nasa-project-codealong",
+  "version": "1.0.0",
+  "description": "The completed version of our NASA project from [Complete Node.js Developer: Zero to Mastery](https://academy.zerotomastery.io/a/aff_jqtq5631/external?affcode=441520_1jw4f2ay).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm run watch --prefix server",
+    "client": "npm run start --prefix cleint",
+    "watch" : "npm run server & npm run client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
